@@ -14,12 +14,20 @@ html body {
 .navli {
   display: inline;
   float: left;
+  background-color: #C0C0C0;
+}
+
+.navli:first-child {
+  margin-left: 0;
+}
+
+.navli:last-child {
+  margin-right: 0;
 }
 
 .big-nav {
   display: block;
   padding: 16px;
-  background-color: #C0C0C0;
   font-size: 20px;
   text-decoration: none;
   text-align: center;

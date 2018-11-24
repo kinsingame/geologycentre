@@ -1,8 +1,14 @@
+html body {
+  font-family: "lato", sans-serif;
+}
+
 .nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
   width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .navli {
@@ -17,12 +23,18 @@
   font-size: 20px;
   text-decoration: none;
   text-align: center;
+  color: black;
+}
+
+.big-nav:hover {
+  background-color: lightblue;
 }
 
 .active-big-nav {
   background-color: #005b9a;
-}
-
-a:hover {
-  background-color: lightblue;
+  display: block;
+  padding: 16px;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
 }

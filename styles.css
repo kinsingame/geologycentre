@@ -2,6 +2,7 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 .navli {
@@ -11,8 +12,11 @@
 
 .big-nav {
   display: block;
-  padding: 8px;
+  padding: 16px;
   background-color: #C0C0C0;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
 }
 
 .active-big-nav {

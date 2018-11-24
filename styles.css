@@ -1,0 +1,16 @@
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  float: left;
+}
+
+.big-nav {
+  display: block;
+  padding: 8px;
+  background-color: #C0C0C0;
+}

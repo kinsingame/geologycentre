@@ -14,3 +14,11 @@
   padding: 8px;
   background-color: #C0C0C0;
 }
+
+.active-big-nav {
+  background-color: #005b9a;
+}
+
+a:hover {
+  background-color: lightblue;
+}

@@ -7,8 +7,6 @@ html body {
   margin: 0;
   padding: 0;
   width: 100%;
-  display: flex;
-  justify-content: space-around;
   background-color: #C0C0C0;
 }
 
@@ -22,6 +20,7 @@ html body {
   display: block;
   padding-left: auto;
   padding-right: auto;
+  width: auto;
   padding-top: 30px;
   padding-bottom: 30px;
   font-size: 20px;
@@ -29,7 +28,7 @@ html body {
   color: black;
 }
 
-.big-nav:hover {
+.big-nav:hover, .active-big-nav:hover {
   background-color: lightblue;
 }
 
@@ -37,7 +36,7 @@ html body {
   background-color: #005b9a !important;
 }
 
-.nav:link, .nav:visited, .nav:active {
-  color: white;
+.big-nav:link, .big-nav:visited, .big-nav:active, .active-big-nav:link, .active-big-nav:visited, .active-big-nav:active {
+  color: black;
   text-decoration: none;
 }

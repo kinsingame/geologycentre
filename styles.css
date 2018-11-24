@@ -9,6 +9,7 @@ html body {
   width: 100%;
   display: flex;
   justify-content: space-around;
+  background-color: #C0C0C0;
 }
 
 .navli {

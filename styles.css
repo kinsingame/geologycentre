@@ -10,6 +10,8 @@ html body {
   display: flex;
   justify-content: space-around;
   background-color: #C0C0C0;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
 }
 
 .navli {
@@ -18,17 +20,9 @@ html body {
   background-color: #C0C0C0;
 }
 
-.navli:first-child {
-  margin-left: 0;
-}
-
-.navli:last-child {
-  margin-right: 0;
-}
-
 .big-nav {
   display: block;
-  padding: 16px;
+  padding: 30px;
   font-size: 20px;
   text-decoration: none;
   text-align: center;
